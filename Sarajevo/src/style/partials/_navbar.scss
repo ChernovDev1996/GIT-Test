@@ -1,0 +1,84 @@
+.hero-background-section {
+.navbar {
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  justify-content: space-between; 
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-menu-item {
+  padding-left: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color:white;
+}
+
+.navbar-burger{
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+  .navbar-brand {
+     padding-left: 20px;
+  }
+
+.navbar-menu {
+ flex-direction: column;
+ align-items: center;
+  display: none;
+ transition: all 0.5s ease-in-out;
+}
+.navbar-menu-item {
+    padding-left: 0; 
+    font-size: 30px; 
+    padding-top: 15px;
+    transition: all 0.5s ease-in-out;
+
+ }
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-burger{
+  display: block;
+     font-size: 30px; 
+  padding-right: 20px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  
+}
+  .active {
+  display: flex;
+}
+}
+
+}
+
+
+

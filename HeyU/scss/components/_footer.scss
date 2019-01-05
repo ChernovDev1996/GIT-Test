@@ -1,0 +1,17 @@
+footer {
+  margin-top: 2em;
+  border-top: 1px solid $gray-200;
+  padding: 30px;
+  .footer_nav {
+    padding-top: 5px;
+    .footer_nav-item {
+      padding-left: 2em;
+    }
+  }
+}
+
+.footer_form {
+  border: none;
+  background-color: $gray-100;
+  border-radius: 40px;
+}

@@ -1,0 +1,41 @@
+.navbar .navbar-brand {
+  color: $white;
+  font-family: $font-paragraph;
+  font-weight: $medium;
+  font-size: 3.2em;
+  margin-left: .5em;
+
+}
+
+.nav-item {
+  font-family: $font-paragraph;
+  font-weight: $light;
+  font-size: 1.2em;
+  margin-left: 3.5em;
+}
+.navbar-nav {
+  margin-right: 1em;
+  text-align: center;
+}
+
+.navbar {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image: none;
+	box-shadow:none;
+  margin-top: 1.5em;
+}
+
+li a {
+  color: $white !important;
+}
+
+li a:hover {
+  opacity: .5;
+  transition: all .5s ease;
+}
+
+.navbar-brand:hover {
+  opacity: .5;
+  transition: all .5s ease;
+}

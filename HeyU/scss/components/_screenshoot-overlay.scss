@@ -1,0 +1,29 @@
+%features {
+ img {
+    max-width: 70%;
+    height: auto;
+  }
+ }
+  %features_img_1 {
+    @include media-breakpoint-up(lg) {
+      position: absolute;
+    z-index: 2;
+    left: 12em;
+    top: 6em;
+      box-shadow: 5px 5px 80px 10px #dddddd;}
+  }
+  %features_img_2 {
+    @include media-breakpoint-up(lg) {
+      position: absolute;
+    z-index: 1;
+    box-shadow: 5px 5px 80px 10px #dddddd;
+    left: 2em;
+  }
+}
+
+%features_img-box {
+  @include media-breakpoint-up(lg) {
+    position: relative;
+    margin-bottom: 780px;
+  }
+};

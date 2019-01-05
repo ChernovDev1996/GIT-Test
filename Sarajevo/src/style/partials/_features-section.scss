@@ -1,0 +1,26 @@
+.features-section {
+    background-color: #efefef;
+
+    &__row {
+        padding: 85px;
+    }
+
+    &__icon-div {
+        padding: 20px;
+        height: 40px;
+        width: 40px;
+        margin-top: 5px;
+        border-radius: 100%;
+        border: 1px solid blue;
+        margin-right: 20px;
+    }
+
+    &__icon {
+        color: blue;
+    }
+
+    &__text-title{
+        padding-bottom: 10px;
+    }
+
+}

@@ -1,0 +1,21 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 300px,
+  md: 960px,
+  lg: 1280px,
+  xl: 1800px
+);
+
+
+$orange:  #eb3f2d;
+$red:     #d90646;
+$white: #fff;
+$black: #1f1f1f;
+
+
+
+$bg-color:               $red;
+$body-color:             $black;
+$enable-rounded:        false;
+$btn-padding-y:         1em;
+$btn-padding-x:         1.5em;

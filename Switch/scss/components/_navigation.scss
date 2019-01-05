@@ -1,0 +1,89 @@
+// Jumbotron styling
+.jumbotron {
+	background-image: url('../Images/Switch project/main_01.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-position: top center;
+}
+.container-jumbotron {
+	margin-top: 30vh;
+	.jumbotron_header {
+		color: $white !important;
+		font-weight: $bold;
+	}
+}
+
+.jumbotron_button-group {
+	margin-top: 2vh;
+	.jumbotron_button-group_button-1 {
+max-width: 220px;
+background-color: $green;
+opacity: 0.9;
+border: none;
+border-radius: 40px;
+	}
+
+	.jumbotron_button-group_button-2  {
+		color: $black;
+margin-top: 35vh;
+max-width: 120px;
+background-color: $white;
+opacity: 0.5;
+border: none;
+border-radius: 40px;
+	}
+}
+
+
+// Navbar styling
+
+.navbar {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image: none;
+	box-shadow:none;
+	font-size: $font-paragraph;
+	color: $white;
+}
+
+  .navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+	color: $white !important;
+	font-size: 2em;
+	&:hover {
+		color: $gray-600;
+		opacity: .5;
+transition: all .5s ease-in;
+	}
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+	  padding-top: 0rem;
+		padding-bottom: 0rem;
+	margin-left: 1.3rem;}
+.nav-item .nav-link:hover {
+	border-top: 5px solid $green;
+	font-weight: $bold;
+	opacity: .8;
+	transition: all .1s ease-in
+}
+
+li a {
+	color: $white !important;
+}
+
+
+.navbar-form .form-group input {
+	padding: 3px 1em;
+	max-width: 170px;
+	background-color: $gray-100;
+	border-radius: 40px;
+	border: none;
+	color: $gray-800 !important;
+	opacity: .9;
+}

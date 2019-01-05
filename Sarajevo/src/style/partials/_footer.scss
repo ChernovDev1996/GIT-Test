@@ -1,0 +1,44 @@
+.footer {
+    background: black;
+    color: white;
+
+    &__title-bold {
+        color: white;
+        padding-bottom: 15px;
+        font-size: $headingThree;
+
+    }
+
+    &__title-bold-span {
+        color: blue;
+    }
+
+    &__title {
+        color: white;
+        padding-bottom: 15px;
+        font-size: $headingThree;
+    }
+
+    &__button {
+        border: 2px solid white;
+        border-radius: 3px;
+        background-color: black;
+        color: white;
+        width: 250px;
+        padding: 10px 0 10px 0;
+    }
+
+    &__list {
+        list-style-type: none;
+    }
+
+    &__list-item {
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+@media (max-width: 575px) {}

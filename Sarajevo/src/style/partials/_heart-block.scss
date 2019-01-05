@@ -1,0 +1,23 @@
+.heart-block {
+    padding: 80px 0 50px 0;
+    &__title {
+        color: blue;
+        font-size: $headingTwo;
+        font-weight: 100;
+    }
+    &__heart-dashed-flexbox {
+        padding-top: 25px;
+    }
+
+    &__heart-dashed-hr {
+        background-color: gray;
+        width: 90px;
+        opacity: .5;
+    }
+
+    &__heart-dashed-icon > .fa-heart {
+        font-size: 20px;
+        opacity: .5;
+        
+    }
+}

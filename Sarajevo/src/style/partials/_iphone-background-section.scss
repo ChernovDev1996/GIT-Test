@@ -1,0 +1,36 @@
+.iphone-background-section {
+  padding: 205px 0 130px 0;
+
+  .fas {
+    font-size: 30px;
+  }
+
+  &__col-img {
+    padding: 0;
+  }
+
+  &__column-1 {
+    margin-left: 90px;
+    margin-right: 0;
+  }
+
+  &__column-2 {
+    margin-right: 90px;
+    margin-left: 0;
+  }
+
+  .fas {
+    margin-right: 40px;
+
+  }
+
+  &__col-item-box-text-title {
+    font-size: $headingThree;
+    font-weight: $font-bold;
+    padding-bottom: 20px;
+  }
+
+  &__col-item-box-text-paragraph {
+    font-size: 12px;
+  }
+}
