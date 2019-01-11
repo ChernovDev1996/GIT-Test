@@ -325,7 +325,9 @@ th:nth-child(4) {
 
 }
 
-//th:last-child {border:none}
+th:last-child {
+    border: none
+}
 
 
 td {
