@@ -1,0 +1,67 @@
+.mainMenuBurger {
+    text-align: center;
+    padding: 0px;
+    font-size: 30px;
+    background-color: transparent;
+    margin-left: 10px;
+    display: none;
+}
+
+
+.mainMenuBurger:hover {
+    cursor: pointer;
+}
+
+
+
+.mainMenuWrapHidden {
+
+    display: none;
+}
+
+.wrapHiddenNav {
+    text-align: center;
+}
+
+
+.newsBox {
+    margin-top: 40px;
+}
+
+.mosaic {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .mainMenu {
+        display: none;
+    }
+
+    .mainMenuBurger {
+        display: block;
+        position: absolute;
+        left: 80%;
+    }
+
+
+    .mainMenuWrapHidden {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainMenuWrapHidden li {
+        margin: 10px 0;
+    }
+
+
+    nav.siteNavigation {
+        border-top: none !important;
+    }
+
+    .siteNavigation:after {
+        border: none !important;
+    }
+}

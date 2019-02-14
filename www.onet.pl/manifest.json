@@ -1,0 +1,7 @@
+{
+  "name": "Onet.pl",
+  "short_name": "Onet",
+  "gcm_sender_id": "211794955562",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}
